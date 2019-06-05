@@ -1,9 +1,9 @@
 package com.vue.demo.model;
 
-public class user {
+public class User {
     /*
         {id} 自增主键
-        {name 人员姓名
+        {name} 人员姓名
         {password} 人员电话
     */
     private int id;
@@ -36,7 +36,7 @@ public class user {
 
     @Override
     public String toString() {
-        return "user{" +
+        return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
